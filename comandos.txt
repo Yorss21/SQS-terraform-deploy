@@ -1,0 +1,74 @@
+    1  git --version
+    2  git version
+    3  sudo yum update
+    4  sudo yum install git
+    5  git version
+    6  pwd
+    7  tree .
+    8  clear
+    9  mkdir my_project
+   10  cd my_project/
+   11  touch main.tf variables.tf output.tf
+   12  ls
+   13  nano main.tf 
+   14  vim main.tf 
+   15  vim main.tf
+   16  clear
+   17  vim main.tf 
+   18  clear
+   19  ls
+   20  cd my_project/
+   21  vim main.tf 
+   22  vim variables.tf 
+   23  vim main.tf 
+   24  terraform version
+   25  cd ..
+   26  terraform version
+   27  clear
+   28  cd my_project/
+   29  git version
+   30  sudo yum install -y yum-utils
+   31  sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
+   32  sudo yum install -y terraform
+   33  clear
+   34  terraform version
+   35  ls
+   36  vim main.tf 
+   37  vim variables.tf 
+   38  cat main.tf 
+   39  vim variables.tf 
+   40  vim output.tf 
+   41  vim output.tf
+   42  cat main.tf 
+   43  vim output.tf 
+   44  vimdiff main.tf output.tf 
+   45  clear
+   46  ls
+   47  cd ..
+   48  ls
+   49  cp -r my_project my_project2
+   50  ls
+   51  cd my_project/
+   52  git init
+   53  rm -rf .git
+   54  ls -ll
+   55  git init
+   56  git branch -m main
+   57  git checkout
+   58  git branch
+   59  git branch --show-current
+   60  git config 
+   61  git status
+   62  git add . 
+   63  git status
+   64  ls -la
+   65  git status
+   66  git commit -m "Mi primer commit"
+   67  git remote add origin https://github.com/Yorss21/SQS-terraform-deploy.git
+   68  git push -u origin main
+   69  ls -la
+   70  cd .git/
+   71  ls
+   72  cd ..
+   73  history
+   74  history > comandos.txt
